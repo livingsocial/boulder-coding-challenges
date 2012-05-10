@@ -15,7 +15,7 @@ Instead of submitting a pull request just create a patch file with your solution
 # Project description
 LivingSocial sends a lot of email and so we're very cautious of not getting onto any spam lists for major email carriers. Spam list companies try and trick us by signing up for our services with honeypot emails and seeing if we'll send email. Let's create an http api that is passed an email and returns if the email is a spammer email or not.
 
-We program in Ruby, Scala and Clojure (in that order). We use Rails, Sinatra, Play!, Blueeyes as web frameworks. Please choose some combination of these to submit your application as it will be the most helpful.
+We program in Ruby, Scala and Clojure (in that order). We use Rails, Sinatra, Play!, and Blueeyes as web frameworks. Please choose some combination of these to submit your project.
 
 	Input looks like:
 	{"email": "dev.challenges@livingsocial.com"}
