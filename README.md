@@ -15,7 +15,7 @@ Instead of submitting a pull request just create a patch file with your solution
 # Project description
 LivingSocial sends a lot of email and so we're very cautious of not getting onto any spam lists for major email carriers. Spam list companies try and trick us by signing up for our services with honeypot emails and seeing if we'll send email. Let's create an http api that is passed an email and returns if the email is a spammer email or not.
 
-We program in Ruby, Scala and Clojure (in that order). We use Rails, Sinatra, Play!, and Blueeyes as web frameworks. Please choose some combination of these to submit your project.
+We program in Ruby, and Scala. We use Rails, Sinatra, Play!, and Blueeyes as web frameworks. Please choose some combination of these to submit your project.
 
 	Input looks like:
 	{"email": "dev.challenges@livingsocial.com"}
@@ -34,7 +34,7 @@ We program in Ruby, Scala and Clojure (in that order). We use Rails, Sinatra, Pl
 ## Other requirements
 1. The webservice should enforce content-types for input and output.
 2. Your application should be easy to set up and should run on either Linux or Mac OS X.
-3. You should be able to configure the tolerances above.
+3. You should be able to configure the valid email tolerances (like at least XX characters).
 4. Your application should have some tests.
 5. Your application should be mostly your work. If you use a gem / jar to do everything you're not showing us very much.
 6. Your application should have an idiomatic build process for your language.
