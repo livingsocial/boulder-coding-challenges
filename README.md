@@ -35,7 +35,7 @@ We program in Ruby, and Scala. We use Rails, Sinatra, Play!, and Blueeyes as web
 1. The webservice should enforce content-types for input and output.
 2. Your application should be easy to set up and should run on either Linux or Mac OS X.
 3. You should be able to configure the valid email tolerances (like at least XX characters).
-4. Your application should have some tests.
+4. Your application should have tests.
 5. Your application should be mostly your work. If you use a gem / jar to do everything you're not showing us very much.
 6. Your application should have an idiomatic build process for your language.
 
